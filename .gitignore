@@ -1,0 +1,57 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtualenv
+env/
+venv/
+myenv/
+ENV/
+*.env
+
+# Django
+*.log
+staticfiles/
+media/
+db.sqlite3
+db.sqlite3-journal
+
+# Django Migrations (optional – if you want to ignore migration files)
+# **Remove if you want to keep migrations in Git**
+# */migrations/*
+# !*/migrations/__init__.py
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv
+*.env
+.env*
+
+# Compiled files
+*.pot
+*.mo
+
+# Coverage & pytest
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Node modules (if you use npm for frontend)
+node_modules/
+
+# Build
+build/
+dist/
